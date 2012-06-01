@@ -1,0 +1,27 @@
+<body>
+<nav>
+	<img class="logo"><a href="#"><%= link_to logo %></a>
+<ul class="top_items">
+	<li ><%= link_to text_small_img, '#', id: "down" %></a></li>
+	<li ><%= link_to text_normal_img, '#', id: "reset" %></a></li>
+	<li ><%= link_to text_large_img, "#", id: "up" %></a></li>
+	<li class="contrast"><a href="#" rel="/assets/style.css"><%= contrast_img_black %></a></li>
+    <li class="contrast_white"><a href="#" rel="/assets/blackwhite.css"><%= contrast_img_white %></a></li>
+	<li ><%= link_to sound_img %></li>
+</ul>
+</nav>
+
+<header id="buttons">
+<ul>
+
+	<li class="home"><%= link_to "", root_path, title: "Home" %></a></li>
+	<li class="about"><%= link_to "", '/about' %></a></li>
+	<li class="info"><%= link_to "", '/informatie' %></a></li>
+	<li class="actual"><%= link_to "", nieuwsoverzicht_path  %>
+	<li class="hotline"><%= link_to "", meldpunt_path %></a></li>
+	<li class="contact"><%= link_to "", adressen_path %></a></li>
+
+</ul>  
+</header>
+
+

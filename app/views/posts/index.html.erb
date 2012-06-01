@@ -1,0 +1,9 @@
+
+<% @posts.each do |p| %>
+<p>
+<%= link_to p.name, p %> | 
+<%= link_to "Edit", edit_post_path(p) %> |
+<%= link_to "verwijder", p, :confirm => "Weet je het zeker?", :method => :delete %> 
+</p>
+
+<% end %>
