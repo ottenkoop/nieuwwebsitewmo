@@ -24,7 +24,7 @@
   $.fn.fontscale = function(selectors, adjustment, parameters) {
 
     var settings = $.extend( $.fn.fontscale.defaults, parameters);
-    
+  
     //only use cookies if we can
 		if ( ! $.isFunction( $.cookie )  ) settings.useCookie = false;
 		
@@ -66,7 +66,7 @@
 	
     //make delta an int that changes nothing to start
     var delta = 0;
-	
+
     if (adj == "+" || adj == "up") {
       //set the delta as an increase
       delta = settings.increment;
