@@ -67,7 +67,7 @@
     //make delta an int that changes nothing to start
     var delta = 0;
 
-    if (adj == "+" || adj == "up") {
+      if (adj == "+" || adj == "up") {
       //set the delta as an increase
       delta = settings.increment;
     } else if (adj == "-" || adj == "down") {

@@ -22,7 +22,6 @@ group :development, :test do
 end
 
 group :production do
-	gem 'taps'
 	gem 'pg'
 end
 
